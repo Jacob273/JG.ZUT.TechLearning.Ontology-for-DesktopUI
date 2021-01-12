@@ -1,6 +1,6 @@
 
 
-# Ontology (information science)
+# Ontology (Information science)
 
 In the context of computer and information sciences, an ontology defines a set of representational primitives with which to model a domain of knowledge.
 
@@ -14,6 +14,10 @@ A free, open-source ontology editor and framework for building intelligent syste
 
 https://protege.stanford.edu/
 
-# Project: Ontology which describes desktop applications structure 
+# Ontology for desktop application's user interface 
+
+## Hierarchy (generated with OWLViz plugin)
+
+_(based on my WPF framework experience and feelings about digital realiy of desktop applications)_
 
 ![ontology](./ui-hierarchy.jpg)
