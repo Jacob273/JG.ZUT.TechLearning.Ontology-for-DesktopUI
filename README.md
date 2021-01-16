@@ -14,7 +14,7 @@ A free, open-source ontology editor and framework for building intelligent syste
 
 https://protege.stanford.edu/
 
-# Ontology for desktop application's user interface 
+# Ontology for desktop application's
 
 ## Hierarchy (generated with OWLViz plugin)
 
