@@ -199,7 +199,7 @@
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#RuntimeEnvironment -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#RuntimeEnvironment">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Entity"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#App"/>
     </owl:DatatypeProperty>
     
 
@@ -3169,11 +3169,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MainWindow_[1]">
         <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Window"/>
+        <UIElement_BackgroundColor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transparent</UIElement_BackgroundColor>
+        <UIElement_BackogrundImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</UIElement_BackogrundImage>
+        <UIElement_BorderColor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black</UIElement_BorderColor>
         <UIElement_BorderThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</UIElement_BorderThickness>
+        <UIElement_Child rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menu,Spreadsheet</UIElement_Child>
+        <UIElement_Enabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</UIElement_Enabled>
+        <UIElement_FontColor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black</UIElement_FontColor>
+        <UIElement_FontFamily rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liberation Sans</UIElement_FontFamily>
+        <UIElement_FontSize rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.0</UIElement_FontSize>
+        <UIElement_IsFocused rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</UIElement_IsFocused>
+        <UIElement_Parent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</UIElement_Parent>
         <UIElement_PositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</UIElement_PositionX>
         <UIElement_PositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</UIElement_PositionY>
         <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1200.0</UIElement_SizeHeight>
         <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1920.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LibreOffice Calc 7.0.4</UIElement_Title>
         <UIElement_Visibility rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visible</UIElement_Visibility>
     </owl:NamedIndividual>
     
