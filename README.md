@@ -47,6 +47,9 @@ _(based on my WPF framework experience and feelings about digital realiy of desk
 
 ![ontology](./ui-hierarchy.jpg)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 408d757e73dd439d8e03fdacc783eb29257c54ca
+=======
+>>>>>>> 0465e0f5d919aa42db16e5982679fd612555d78a
 =======
 >>>>>>> 0465e0f5d919aa42db16e5982679fd612555d78a
