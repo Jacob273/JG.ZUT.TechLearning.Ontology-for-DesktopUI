@@ -3128,27 +3128,339 @@
     
 
 
-    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#English -->
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_AdobeSystems -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#English"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_AdobeSystems">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#AdobeSystems"/>
+    </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#German -->
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_ApacheSoftwareFoundation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#German"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_ApacheSoftwareFoundation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Apache_Software_Foundation"/>
+    </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Polish -->
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Facebook -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Polish"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Facebook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Facebook"/>
+    </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Spanish -->
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Google -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Spanish"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Google">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Google"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Microsoft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Microsoft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Microsoft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_MozillaFoundation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_MozillaFoundation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Mozilla_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Rakuten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Rakuten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Rakuten"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_SignalTechnologyFoundation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_SignalTechnologyFoundation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Signal_Technology_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_SpotifyAB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_SpotifyAB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Spotify_AB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_USAToday -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_USAToday">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#USA_TODAY"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_ViberMedia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_ViberMedia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ViberMedia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_WhatsAppInc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_WhatsAppInc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#WhatsApp_Inc."/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_YouNeedABudgetLLC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_YouNeedABudgetLLC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#You_Need_a_Budget_LLC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_FinanceApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_FinanceApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#FinanceApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_GraphicEditorApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_GraphicEditorApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#GraphicEditorApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MailApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MailApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MailApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MapApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MapApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MapApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MessagingApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MessagingApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MessagingApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MultimediaApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MultimediaApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultimediaApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_NewsApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_NewsApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#NewsApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_SocialApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_SocialApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SocialApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_SportApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_SportApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SportApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_SpreadSheetsApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_SpreadSheetsApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SpreadsSheetsApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_TextEditorApps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_TextEditorApps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TextEditorApps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_BizStone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_BizStone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Biz_Stone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_BrianActon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_BrianActon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Brian_Acton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_ChadHurley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_ChadHurley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Chad_Hurley"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_DanielEk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_DanielEk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Daniel_Ek"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_DonHo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_DonHo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Don_Ho"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_EzWilliams -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_EzWilliams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Ev_Williams"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_JackDorsey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_JackDorsey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jack_Dorsey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_JanKoum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_JanKoum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jan_Koum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_JawedKarim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_JawedKarim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jawed_Karim"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_KevinSystrom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_KevinSystrom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Kevin_Systrom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_MarkKrieger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_MarkKrieger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Mark_Krieger"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_MartinLorentzon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_MartinLorentzon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Martin_Lorentzon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_NikolaiDurov -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_NikolaiDurov">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Nikolai_Durov"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_PavelDurov -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_PavelDurov">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Pavel_Durov"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_PeterMattis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_PeterMattis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Peter_Mattis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_SpencerKimball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_SpencerKimball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Spencer_Kimball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_SteveChen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_SteveChen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Steve_Chen"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_UndefinedPerson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_UndefinedPerson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Undefined"/>
+    </owl:NamedIndividual>
     
 
 
@@ -3156,6 +3468,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_Application_[1]">
         <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#CalcForDesktop"/>
+        <hasDestiny rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_SpreadSheetsApps"/>
         <hasRuntimeEnvironment rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#RuntimeEnvironment_Jakub-Gmur-PC_[1]"/>
         <hasVisualRepresentation rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MainWindow_[1]"/>
         <App_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LibreOffice Calc</App_Name>
@@ -3169,11 +3482,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MainWindow_[1]">
         <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Window"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_SpreadSheet_[1]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_TopMenu_[1]"/>
         <UIElement_BackgroundColor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transparent</UIElement_BackgroundColor>
         <UIElement_BackogrundImage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</UIElement_BackogrundImage>
         <UIElement_BorderColor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black</UIElement_BorderColor>
         <UIElement_BorderThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</UIElement_BorderThickness>
-        <UIElement_Child rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Menu,Spreadsheet</UIElement_Child>
+        <UIElement_Child rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TopMenu,Spreadsheet</UIElement_Child>
         <UIElement_Enabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</UIElement_Enabled>
         <UIElement_FontColor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black</UIElement_FontColor>
         <UIElement_FontFamily rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liberation Sans</UIElement_FontFamily>
@@ -3186,6 +3501,24 @@
         <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1920.0</UIElement_SizeWidth>
         <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LibreOffice Calc 7.0.4</UIElement_Title>
         <UIElement_Visibility rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visible</UIElement_Visibility>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_SpreadSheet_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_SpreadSheet_[1]">
+        <UIElement_SizeMaxHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">800.0</UIElement_SizeMaxHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1920.0</UIElement_SizeWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_TopMenu_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_TopMenu_[1]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1920.0</UIElement_SizeWidth>
     </owl:NamedIndividual>
     
 
