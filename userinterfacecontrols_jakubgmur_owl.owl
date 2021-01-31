@@ -696,9 +696,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Applications -->
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationSoftware -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Applications">
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationSoftware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Software"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationsTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationsTypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationSoftware"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasPlatform"/>
@@ -719,6 +728,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Bar">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Navigation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Biz_Stone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Biz_Stone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
     </owl:Class>
     
 
@@ -747,6 +764,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Brian_Acton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Brian_Acton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ButtonWithSlider -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ButtonWithSlider">
@@ -767,6 +792,42 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#CalcForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Apache_Software_Foundation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SpreadsSheetsApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Solaris"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
@@ -799,6 +860,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Canvas">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Layout"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Chad_Hurley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Chad_Hurley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
     </owl:Class>
     
 
@@ -841,6 +910,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Daniel_Ek -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Daniel_Ek">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DataDisplay -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DataDisplay">
@@ -876,17 +953,17 @@
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Applications"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationsTypes"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopSystems"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasPlatform"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Desktop"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasPlatform"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Desktop"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopSystems"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -947,10 +1024,48 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Ev_Williams -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Ev_Williams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ExcelForDesktop -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ExcelForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Microsoft"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SpreadsSheetsApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
@@ -999,6 +1114,42 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Undefined"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#GraphicEditorApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
                 <owl:allValuesFrom>
                     <owl:Class>
@@ -1028,6 +1179,42 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#GoogleEarthForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Google"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MapApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
@@ -1110,6 +1297,42 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Kevin_Systrom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Mark_Krieger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SocialApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
                 <owl:allValuesFrom>
                     <owl:Class>
@@ -1130,6 +1353,38 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#InstagramForMobile">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MobileApplications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jack_Dorsey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jack_Dorsey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jan_Koum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jan_Koum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jawed_Karim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jawed_Karim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Kevin_Systrom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Kevin_Systrom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
     </owl:Class>
     
 
@@ -1276,6 +1531,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MapApps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MapApps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Mark_Krieger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Mark_Krieger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Martin_Lorentzon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Martin_Lorentzon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Media -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Media">
@@ -1312,6 +1591,36 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MessengerForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Facebook"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MessagingApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
@@ -1357,17 +1666,17 @@
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MobileApplications -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MobileApplications">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Applications"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationsTypes"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasPlatform"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Mobile"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Mobile"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MobileSystems"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MobileSystems"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1406,14 +1715,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#NavigationApps -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#NavigationApps">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#NavigationWindow -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#NavigationWindow">
@@ -1444,6 +1745,30 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Microsoft"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TextEditorApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
                 <owl:allValuesFrom>
                     <owl:Class>
@@ -1469,7 +1794,9 @@
 
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#OperatingSystems -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#OperatingSystems"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#OperatingSystems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SystemSoftware"/>
+    </owl:Class>
     
 
 
@@ -1477,6 +1804,30 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#OutlookForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Microsoft"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MailApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
@@ -1532,6 +1883,36 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#AdobeSystems"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#GraphicEditorApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
                 <owl:allValuesFrom>
                     <owl:Class>
@@ -1550,7 +1931,9 @@
 
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Platforms -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Platforms"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Platforms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationSoftware"/>
+    </owl:Class>
     
 
 
@@ -1574,6 +1957,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ProgressBar">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#UserInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Rakuten -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Rakuten">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company"/>
     </owl:Class>
     
 
@@ -1632,10 +2023,41 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Signal_Technology_Foundation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MessagingApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
                             <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
                             <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
                         </owl:unionOf>
@@ -1643,6 +2065,14 @@
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Signal_Technology_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Signal_Technology_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company"/>
     </owl:Class>
     
 
@@ -1660,6 +2090,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SocialApps">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Software"/>
     
 
 
@@ -1699,6 +2135,63 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SpotifyForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Daniel_Ek"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Martin_Lorentzon"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultimediaApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1735,10 +2228,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Steve_Chen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Steve_Chen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SymbianOS -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SymbianOS">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MobileSystems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SystemSoftware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SystemSoftware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Software"/>
     </owl:Class>
     
 
@@ -1755,6 +2264,43 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TelegramForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Undefined"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MessagingApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1787,6 +2333,57 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ThunderbirdForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Mozilla_Foundation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MailApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1827,6 +2424,62 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TwitterForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Biz_Stone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Ev_Williams"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jack_Dorsey"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SocialApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1839,10 +2492,44 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#USA_TODAY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#USA_TODAY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#USA_TodayForDesktop -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#USA_TodayForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#USA_TODAY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#NewsApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Undefined -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Undefined">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#People"/>
     </owl:Class>
     
 
@@ -1858,6 +2545,7 @@
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#UserInterfaceControls -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#UserInterfaceControls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationSoftware"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasChild"/>
@@ -1884,6 +2572,50 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ViberForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Rakuten"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MessagingApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1915,11 +2647,11 @@
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#WebApplications -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#WebApplications">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Applications"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ApplicationsTypes"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasPlatform"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Web"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Web"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1930,6 +2662,56 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#WhatsAppForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Brian_Acton"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jan_Koum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MessagingApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1978,6 +2760,50 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#WordForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Microsoft"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TextEditorApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1994,6 +2820,65 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#YNABForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#You_Need_a_Budget_LLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#FinanceApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Linux"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#You_Need_a_Budget_LLC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#You_Need_a_Budget_LLC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company"/>
     </owl:Class>
     
 
@@ -2010,6 +2895,62 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#YoutubeforDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Chad_Hurley"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Jawed_Karim"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Steve_Chen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultimediaApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MacOS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasVisualRepresentation"/>
@@ -2033,6 +2974,30 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad++ForDesktop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DesktopApplications"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Don_Ho"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasDestiny"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TextEditorApps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_10"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Windows_7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#targetOS"/>
