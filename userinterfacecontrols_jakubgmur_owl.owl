@@ -71,9 +71,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasLanguage -->
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasMultiLanguageSupport -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasLanguage">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#hasMultiLanguageSupport">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#AppData"/>
     </owl:ObjectProperty>
     
@@ -150,6 +150,23 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#App">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Entity"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#App_LanguageOptions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#App_LanguageOptions">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#App"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#App_MultiLanguageSupport -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#App_MultiLanguageSupport">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#App_LanguageOptions"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
 
@@ -2431,6 +2448,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TheDocumentFoundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TheDocumentFoundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ThunderbirdForDesktop -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ThunderbirdForDesktop">
@@ -3200,6 +3225,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_TheDocumentFoundation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_TheDocumentFoundation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TheDocumentFoundation"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_USAToday -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_USAToday">
@@ -3317,6 +3350,18 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_TextEditorApps">
         <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#TextEditorApps"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultiLangSupport_false -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultiLangSupport_false"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultiLangSupport_true -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultiLangSupport_true"/>
     
 
 
@@ -3468,7 +3513,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_Application_[1]">
         <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#CalcForDesktop"/>
+        <hasAuthor rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_TheDocumentFoundation"/>
         <hasDestiny rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_SpreadSheetsApps"/>
+        <hasMultiLanguageSupport rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultiLangSupport_true"/>
         <hasRuntimeEnvironment rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#RuntimeEnvironment_Jakub-Gmur-PC_[1]"/>
         <hasVisualRepresentation rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MainWindow_[1]"/>
         <App_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LibreOffice Calc</App_Name>
