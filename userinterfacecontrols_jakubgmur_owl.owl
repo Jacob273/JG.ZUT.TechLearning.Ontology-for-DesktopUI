@@ -1008,6 +1008,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ContextMenuItem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ContextMenuItem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ContextMenu"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Country -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Country"/>
@@ -1672,6 +1680,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Menu">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Menus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MenuItem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MenuItem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Menu"/>
     </owl:Class>
     
 
@@ -3552,9 +3568,120 @@
     
 
 
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[10] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[10]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Window</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[11] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[11]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Help</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[1]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[2] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[2]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edit</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[3] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[3]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">View</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[4] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[4]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insert</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[5] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[5]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Format</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[6] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[6]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Styles</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[7] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[7]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sheet</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[8] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[8]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[9] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[9]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</UIElement_SizeWidth>
+        <UIElement_Title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tools</UIElement_Title>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_SpreadSheet_[1] -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_SpreadSheet_[1]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">600.0</UIElement_SizeHeight>
         <UIElement_SizeMaxHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">800.0</UIElement_SizeMaxHeight>
         <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1920.0</UIElement_SizeWidth>
     </owl:NamedIndividual>
@@ -3564,8 +3691,97 @@
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_TopMenu_[1] -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_TopMenu_[1]">
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[10]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[11]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[1]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[2]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[3]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[4]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[5]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[6]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[7]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[8]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Calc_7.0.4_MenuItem_[9]"/>
         <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</UIElement_SizeHeight>
         <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1920.0</UIElement_SizeWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Messenger_86.5.119_Application_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Messenger_86.5.119_Application_[1]">
+        <hasAuthor rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Facebook"/>
+        <hasDestiny rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_MessagingApps"/>
+        <hasMultiLanguageSupport rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultiLangSupport_false"/>
+        <hasRuntimeEnvironment rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#RuntimeEnvironment_Jakub-Gmur-PC_[1]"/>
+        <hasVisualRepresentation rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Messenger_86.5.119_MainWindow_[1]"/>
+        <App_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Messenger</App_Name>
+        <App_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86.5.119</App_Version>
+        <TargetSystem_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Windows 7,Windows10</TargetSystem_Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Messenger_86.5.119_MainWindow_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Messenger_86.5.119_MainWindow_[1]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">550.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">700.0</UIElement_SizeWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_BottomMenu_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_BottomMenu_[1]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">400.0</UIElement_SizeWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_MainWindow_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_MainWindow_[1]">
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_TextBox_[1]"/>
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_TopMenu_[1]"/>
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">600.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">400.0</UIElement_SizeWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_TextBox_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_TextBox_[1]">
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">500.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">400.0</UIElement_SizeWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_TopMenu_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_TopMenu_[1]">
+        <hasChild rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_BottomMenu_[1]"/>
+        <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</UIElement_SizeHeight>
+        <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">400.0</UIElement_SizeWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_18363.1316_Application_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_18363.1316_Application_[1]">
+        <hasAuthor rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Company_Microsoft"/>
+        <hasDestiny rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Destiny_TextEditorApps"/>
+        <hasMultiLanguageSupport rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#MultiLangSupport_true"/>
+        <hasRuntimeEnvironment rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#RuntimeEnvironment_Jakub-Gmur-PC_[1]"/>
+        <hasVisualRepresentation rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad_1836.1316_MainWindow_[1]"/>
+        <App_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notepad</App_Name>
+        <App_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1836.1316</App_Version>
+        <TargetSystem_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Windows 7,Windows 10</TargetSystem_Name>
     </owl:NamedIndividual>
     
 
