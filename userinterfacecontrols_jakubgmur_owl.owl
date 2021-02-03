@@ -3840,8 +3840,18 @@
     <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Messenger_86.5.119_MainWindow_[1] -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Messenger_86.5.119_MainWindow_[1]">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Window"/>
         <UIElement_SizeHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">550.0</UIElement_SizeHeight>
         <UIElement_SizeWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">700.0</UIElement_SizeWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#NotepadPlusPlus_7.6.3_Application_[1] -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#NotepadPlusPlus_7.6.3_Application_[1]">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Notepad++ForDesktop"/>
+        <hasAuthor rdf:resource="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Person_DonHo"/>
     </owl:NamedIndividual>
     
 
@@ -3990,23 +4000,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ButtonWithSlider"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#SafeActivationButton"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#ToggleButton"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Buttons"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DataDisplay"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DateDisplay"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DialogBoxes"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#DocumentsViewing"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Input"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Layout"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Media"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Menus"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Navigation"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#Selection"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/jakubg/ontologies/2021/0/UserInterfaceControls#UserInformation"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
